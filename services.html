@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Services</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap');
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+header{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 99;
+}
+   .header .navbar a{
+   margin: 0 1rem;
+   font-size: 1.6rem;
+   color: blue;
+    
+   }
+
+   .header .navbar a:hover{
+    color: #fff;
+    border-bottom: .1rem solid #fff;
+    padding-bottom: .5rem;
+
+   }
+
+body, h1, ul {
+  background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.service .row{
+display: flex;
+align-items: center;
+background: aqua;
+flex-wrap: wrap;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.service-card {
+    background-color:skyblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.7rem;
+  color: blue;
+  background: aqua;
+  cursor: pointer;
+
+   }
+
+   .btn:hover{
+  letter-spacing: .2rem;
+
+
+   }
+
+
+  </style>
+  </head>
+  <body>
+
+    <header class="header">
+        <div class="row">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Logo" width="50" height="50">
+      </div>
+    </div>
+       <h1>MOBILE LAUNDRY</h1>
+    <nav class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="services.html">SERVICES</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="about us.html">ABOUT US</a>
+   
+
+  
+    </nav>
+</header>
+    <section class="services">
+      <div class="service-card">
+          <img src="images/services.jpg" alt="Wash & Fold Service">
+          <h2>Wash & Fold</h2>
+          <p>We'll wash, dry, and fold your laundry with care.</p>
+          <a href="#" class="btn">Place Order</a>
+      </div>
+  
+      <div class="service-card">
+          <img src="images/services-1.jpg" alt="Dry Cleaning Service">
+          <h2>Drying Cleaning</h2>
+          <p>High-quality dry cleaning for your delicate garments.</p>
+          <a href="#" class="btn">Place Order</a>
+      </div>
+  
+      <div class="service-card">
+        <img src="images/services-2.jpg" alt="Flat iron Service">
+        <h2>Flat Ironing</h2>
+        <p>Ironing is an essential service provided by many laundry shops or laundromats as part of their overall laundry and garment care services.</p>
+        <a href="#" class="btn">Place Order</a>
+    </div>
+
+    <div class="service-card">
+        <img src="images/service-3.jpg" alt="Uniforms Cleaning Service">
+        <h2>Uniform Cleaning</h2>
+        <p>offer services for cleaning and maintaining uniforms.</p>
+        <a href="#" class="btn">Place Order</a>
+    </div>
+  </section>
+</body>
+</html>

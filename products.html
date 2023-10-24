@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Products</title>
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+
+header{
+  background: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 1000;
+
+   }
+.header .logo img{
+
+margin: 0 1rem;
+font-size: 1.6rem;
+
+
+}
+
+
+   .header .navbar a{
+   margin: 0 1rem;
+   font-size: 1.6rem;
+   color: blue;
+    
+   }
+
+   .header .navbar a:hover{
+    color: #fff;
+    border-bottom: .1rem solid #fff;
+    padding-bottom: .5rem;
+
+   }
+
+  
+    
+
+h1 {
+    font-size: 36px;
+}
+
+
+body, ul {
+  background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.product{
+  min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.product-container {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.product-item {
+  border: 1px solid aqua;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.7rem;
+  color: blue;
+  background: aqua;
+  cursor: pointer;
+
+   }
+
+   .btn:hover{
+  letter-spacing: .2rem;
+
+
+   }
+
+.product-item img {
+  max-width: 100%;
+}
+
+
+  </style>
+</head>
+<body>
+
+
+  <header class="header">
+     <div class="logo">
+      <img src="images/logo.jpg" alt="Logo" width="50" height="50">
+  </div>
+</div>
+   <h1>MOBILE LAUNDRY</h1>
+<nav class="navbar">
+<a href="index.html">HOME</a>
+<a href="services.html">SERVICES</a>
+<a href="products.html">PRODUCTS</a>
+<a href="about us.html">ABOUT US</a>
+
+
+</nav>
+</header>
+  <div class="product-container">
+    <div class="product-item">
+        <img src="images/product-1.jpg" alt="Product 1">
+        <h3>TIDE POWDER</h3>
+        <p class="price">₱186.Php</p>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+    
+</div>
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-2.jpg" alt="Product 2">
+      <h3>ARIEL</h3>
+      <p class="price">₱230.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+  
+</div>
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-3.jpg" alt="Product 3">
+      <h3>TIDE DETERGENT</h3>
+      <p class="price">₱210.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div>
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-4.jpg" alt="Product 4">
+      <h3>ARIEL DETERGENT</h3>
+      <p class="price">₱250.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div> 
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-5.jpg" alt="Product 5">
+      <h3>BREEZE POWDER</h3>
+      <p class="price">₱288.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div>
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-6.jpg" alt="Product 6">
+      <h3>BREEZE DETERGENT</h3>
+      <p class="price">₱286.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div>
+
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-7.jpg" alt="Product 7">
+      <h3>DOWNY SUNRISE</h3>
+      <p class="price">₱426.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div>
+<div class="product-container">
+  <div class="product-item">
+      <img src="images/product-8.jpg" alt="Product 8">
+      <h3>BREEZE DETERGENT</h3>
+      <p class="price">₱462.Php</p>
+      <a href="#" class="btn">Add to Cart</a>
+  </div>
+
+</div>
+</body>
+</html>
